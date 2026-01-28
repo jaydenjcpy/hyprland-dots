@@ -16,8 +16,9 @@
     ],
     "clock": {
         "interval": 60,
-        "format": "{:%H:%M}",
-        "max-length": 25
+        "tooltip": true,
+        "format": "{:%H.%M}",
+        "tooltip-format": "{:%Y-%m-%d}",
     },
     "hyprland/workspaces": {
         "format": "{name}",
@@ -63,7 +64,7 @@
         ]
     },
     "network": {
-        "interface": "eno1",
+        "interface": "wlan0",
         "format": "{ifname}",
         "format-wifi": "{essid} ",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗",
@@ -90,24 +91,25 @@
         ],
         "max-length": 25
     },
-      "custom/notification": {
-    "tooltip": true,
-    "format": "<span size='16pt'>{icon}</span>",
-    "format-icons": {
-      "notification": "󱅫",
-      "none": "󰂜",
-      "dnd-notification": "󰂠",
-      "dnd-none": "󰪓",
-      "inhibited-notification": "󰂛",
-      "inhibited-none": "󰪑",
-      "dnd-inhibited-notification": "󰂛",
-      "dnd-inhibited-none": "󰪑"
-    },
-    "return-type": "json",
-    "exec-if": "which swaync-client",
-    "exec": "swaync-client -swb",
-    "on-click": "swaync-client -t -sw",
-    "on-click-right": "swaync-client -d -sw",
-    "escape": true
-  }
+    "custom/notification": {
+        "tooltip": true,
+        "format": "<span size='16pt'>{icon}</span>",
+        "format-icons": {
+            "notification": "󱅫",
+            "none": "󰂜",
+            "dnd-notification": "󰂠",
+            "dnd-none": "󰪓",
+            "inhibited-notification": "󰂛",
+            "inhibited-none": "󰪑",
+            "dnd-inhibited-notification": "󰂛",
+            "dnd-inhibited-none": "󰪑"
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    }
 }
+
