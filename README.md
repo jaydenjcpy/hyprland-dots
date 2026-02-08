@@ -25,3 +25,5 @@ Resources:
 OhMyZsh: https://ohmyz.sh/
 
 Powerlevel10k: https://github.com/romkatv/powerlevel10k
+
+Wallpapers: https://github.com/Narmis-E/onedark-wallpapers
