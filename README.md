@@ -1,3 +1,10 @@
+<img width="1366" height="768" alt="2026-02-10-223345_hyprshot" src="https://github.com/user-attachments/assets/2ed9bc65-2242-4201-bc90-464c2e27cee0" />
+
+<img width="1355" height="768" alt="2026-02-10-223357_hyprshot" src="https://github.com/user-attachments/assets/53b98262-6c90-47dd-8232-ccbdd4d49753" />
+
+
+
+
 These dotfiles are made based on the YouTube tutorial by saneAspect (formally sane1090x) listed below.
 
 Credits (Credits goes to original authors):
