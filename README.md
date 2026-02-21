@@ -26,6 +26,7 @@ hyprshot
 waybar 
 
 *There is a wi-fi module in the waybar config that I turned off in the config that you can enable*
+*The keybinds are in the Keybind swction in ~/.config/hypr/hyprland.conf*
 
 
 
