@@ -24,7 +24,8 @@ zsh
 swaync
 hyprshot
 waybar 
-yazi 
+yazi
+awww
 
 *There is a wi-fi module in the waybar config that I turned off in the config that you can enable*
 
